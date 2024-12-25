@@ -1,0 +1,41 @@
+main h1 {
+    color: #fff;
+    font-size: 7rem;
+
+}
+
+h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.sobre-empresa p {
+    font-size: 2.5rem;
+
+}
+
+#perfil-empresa img {
+    margin: 5rem 3rem;
+}
+
+.asli li {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+}
+
+strong {
+    color: #df994e;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.asli p {
+    display: inline-block;
+    margin: 1rem 0 2rem 3rem;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 6rem;
+}

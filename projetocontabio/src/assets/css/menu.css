@@ -1,0 +1,196 @@
+.navegar-pagina {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.navegar-pagina img {
+    width: 60px;
+    height: auto;
+    margin: 2.5rem 0rem 0rem 5.0rem;
+}
+
+.navegar {
+    display: flex;
+    margin: 1.5rem 15rem 1.5rem 0rem;
+}
+
+.navegar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 2rem 1.5rem;
+}
+
+#perfil-empresa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+
+
+}
+
+.sobre-empresa {
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.titulo-perfil {
+    font-size: 5.4rem;
+}
+
+.button-saiba-mais {
+    width: 50%;
+    height: 4rem;
+    border-radius: 1px;
+    font-size: 2rem;
+    background-color: #df994e;
+    color: #000;
+    border: none;
+}
+
+.subtitulo {
+    padding-top: 70px;
+    width: 100%;
+    text-align: center;
+    font-size: 5.4rem;
+
+}
+
+.conteudo-servicos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+
+}
+
+.separando-numero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.button-tela3 {
+    width: 20%;
+    height: 4rem;
+    border-radius: 1px;
+    font-size: 2rem;
+    background-color: #df994e;
+    color: #000;
+    border: none;
+    margin: 0 40% 2rem;
+}
+
+.subtitulotres {
+    padding-top: 70px;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 2re;
+
+}
+
+.tela4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+
+
+.paragrafoTela4 {
+    width: 80%;
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.img-cliente img {
+    margin: 1rem;
+}
+
+.button-tela4 {
+    width: 20%;
+    height: 4rem;
+    border-radius: 1px;
+    font-size: 2rem;
+    background-color: #df994e;
+    color: #000;
+    border: none;
+    margin: 0 40% 2rem;
+
+}
+
+.tela5 {
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.paragrafoTela5 {
+    font-size: 4rem;
+
+}
+
+.declaracao-ceo {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #949494;
+}
+
+.tela6 {
+    width: 100%;
+    height: 100vh;
+}
+
+.display {
+    width: 100%;
+    display: flex;
+
+}
+
+.cubo {
+    width: 80%;
+    height: 20rem;
+}
+
+.agrupar-p {
+    width: 20%;
+
+    margin-top: 6rem;
+
+}
+
+.tela6-paragrafo {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+}
+
+.meio-comunicaçao {
+    margin-top: .5rem;
+    font-size: 1.5rem;
+
+}
+
+.rodape {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.icones img {
+    margin-left: .5rem;
+}
