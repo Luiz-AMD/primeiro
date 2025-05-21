@@ -1,0 +1,150 @@
+@container mainContent__container (min-width: 42.5em) {
+    .mainContent__container {
+        display: flex;
+        gap: 1em;
+
+    }
+
+    .mainContent__title {
+        margin-top: 0;
+    }
+
+    .mainContent__img img {
+        max-height: 382px;
+    }
+
+    .mainContent__img {
+        flex: 0 0 25%;
+    }
+
+    .mainContent__text {
+        flex-grow: 1;
+    }
+
+
+}
+
+
+@media screen and (min-width: 50em) {
+    .header {
+        display: flex;
+        padding-top: 1.5rem;
+        justify-content: space-between;
+
+    }
+
+    .header img {
+        margin: 0;
+        padding-left: 1rem;
+    }
+
+    .header__list {
+
+        flex-direction: row;
+        margin: 0 auto;
+
+
+
+    }
+
+    .header__item--li {
+        background-color: transparent;
+        width: 50%;
+
+
+    }
+
+    .header__item--li a:hover {
+        background-color: color-mix(in srgb, var(--primary-color), white 60%);
+        color: var(--primary-color);
+        font-weight: 600;
+        cursor: pointer;
+
+    }
+
+    .header__item--li a {
+        font-weight: 600;
+        color: black;
+    }
+
+
+
+    /* BANNER */
+
+    .heroBanner {
+        background-color: var(--primary-color);
+
+    }
+
+    .heroBanner__iconPlay {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .heroBanner__title,
+    .heroBanner__subtitle {
+        color: white;
+    }
+
+    /* MIDDLECONTAINER */
+
+}
+
+@media screen and (min-width: 70em) {
+    .heroBanner {
+        background-image: linear-gradient(transparent, black 80%), url("/Angels hostels/images/bg_topo_1198x670.jpg");
+        aspect-ratio: 1198/670;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .heroBanner .maxWidth {
+        margin: initial;
+        margin-bottom: 3rem;
+        width: 70%;
+    }
+
+}
+
+
+@media screen and (min-width: 95em) {
+    .heroBanner {
+
+        background-image: linear-gradient(transparent, black 90%),
+            url("/Angels hostels/images/bg_topo_1600x1374.jpg");
+        background-color: var(--primary-color);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-height: 80vh;
+        padding: 0;
+        margin: auto;
+    }
+
+    .heroBanner .maxWidth {
+        width: 50%;
+    }
+
+    .heroBanner__iconPlay {
+        width: 8em;
+        height: 8em;
+        padding-bottom: 2rem;
+        margin: 0 auto;
+    }
+
+    /* MIDDLECONTAINER  */
+    .col-xl-3 {
+        width: calc(25% - var(--defoult-gap));
+    }
+
+    /* MAINCONTENT--------------------------------------------------------------------------------------------------- */
+
+
+
+    .mainContent .col-xl-6 {
+        width: calc(50% - var(--defoult-gap));
+    }
+}
